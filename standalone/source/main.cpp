@@ -1,53 +1,35 @@
-#include <greeter/greeter.h>
-#include <greeter/version.h>
-
 #include <cxxopts.hpp>
 #include <iostream>
 #include <string>
 #include <unordered_map>
+#include <chess/board.h>
+#include <chess/command.h>
+
+using namespace chess;
 
 auto main(int argc, char** argv) -> int {
-  const std::unordered_map<std::string, greeter::LanguageCode> languages{
-      {"en", greeter::LanguageCode::EN},
-      {"de", greeter::LanguageCode::DE},
-      {"es", greeter::LanguageCode::ES},
-      {"fr", greeter::LanguageCode::FR},
-  };
 
-  cxxopts::Options options(*argv, "A program to welcome the world!");
+  std::cout << "Welcome to the chess game!" << std::endl;
+  std::cout << "Here are the pieces you can use:" << std::endl;
 
-  std::string language;
-  std::string name;
+  Board* b = new Board();
+  b->printBoard();
 
-  // clang-format off
-  options.add_options()
-    ("h,help", "Show help")
-    ("v,version", "Print the current version number")
-    ("n,name", "Name to greet", cxxopts::value(name)->default_value("World"))
-    ("l,lang", "Language code to use", cxxopts::value(language)->default_value("en"))
-  ;
-  // clang-format on
+  while (true) {
+    std::string input;
+    std::cout << "Enter the new move: ";
+    std::cin >> input;
 
-  auto result = options.parse(argc, argv);
+    if (input == "exit") {
+      break;
+    }
 
-  if (result["help"].as<bool>()) {
-    std::cout << options.help() << std::endl;
-    return 0;
+    Command c(input);
+    b->movePiece(c.getFrom(), c.getTo());
+    b->printBoard();
+
   }
 
-  if (result["version"].as<bool>()) {
-    std::cout << "Greeter, version " << GREETER_VERSION << std::endl;
-    return 0;
-  }
-
-  auto langIt = languages.find(language);
-  if (langIt == languages.end()) {
-    std::cerr << "unknown language code: " << language << std::endl;
-    return 1;
-  }
-
-  greeter::Greeter greeter(name);
-  std::cout << greeter.greet(langIt->second) << std::endl;
-
+  delete b;
   return 0;
 }

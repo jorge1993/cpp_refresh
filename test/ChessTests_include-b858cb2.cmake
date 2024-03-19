@@ -1,0 +1,5 @@
+if(EXISTS "/home/vergabox/cpp_refresh/test/ChessTests_tests-b858cb2.cmake")
+  include("/home/vergabox/cpp_refresh/test/ChessTests_tests-b858cb2.cmake")
+else()
+  add_test(ChessTests_NOT_BUILT-b858cb2 ChessTests_NOT_BUILT-b858cb2)
+endif()

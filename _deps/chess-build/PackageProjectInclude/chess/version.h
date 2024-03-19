@@ -1,0 +1,8 @@
+#pragma once
+
+#define CHESS_VERSION "1.0"
+
+#define CHESS_VERSION_MAJOR 1
+#define CHESS_VERSION_MINOR 0
+#define CHESS_VERSION_PATCH 0
+#define CHESS_VERSION_TWEAK 0

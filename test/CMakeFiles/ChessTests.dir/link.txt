@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ChessTests.dir/source/greeter.cpp.o CMakeFiles/ChessTests.dir/source/main.cpp.o -o ChessTests  ../_deps/chess-build/libChess.a ../_deps/fmt-build/libfmt.a 

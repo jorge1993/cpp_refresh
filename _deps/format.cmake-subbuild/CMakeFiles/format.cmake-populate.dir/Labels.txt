@@ -1,0 +1,14 @@
+# Target labels
+ format.cmake-populate
+# Source files and their labels
+/home/vergabox/cpp_refresh/_deps/format.cmake-subbuild/CMakeFiles/format.cmake-populate
+/home/vergabox/cpp_refresh/_deps/format.cmake-subbuild/CMakeFiles/format.cmake-populate.rule
+/home/vergabox/cpp_refresh/_deps/format.cmake-subbuild/CMakeFiles/format.cmake-populate-complete.rule
+/home/vergabox/cpp_refresh/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-build.rule
+/home/vergabox/cpp_refresh/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-configure.rule
+/home/vergabox/cpp_refresh/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-download.rule
+/home/vergabox/cpp_refresh/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-install.rule
+/home/vergabox/cpp_refresh/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-mkdir.rule
+/home/vergabox/cpp_refresh/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-patch.rule
+/home/vergabox/cpp_refresh/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-test.rule
+/home/vergabox/cpp_refresh/_deps/format.cmake-subbuild/format.cmake-populate-prefix/src/format.cmake-populate-stamp/format.cmake-populate-update.rule

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ChessStandalone.dir/source/main.cpp.o -o Chess  ../_deps/chess-build/libChess.a ../_deps/fmt-build/libfmt.a 

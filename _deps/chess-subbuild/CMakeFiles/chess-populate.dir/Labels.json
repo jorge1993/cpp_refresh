@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/vergabox/cpp_refresh/_deps/chess-subbuild/CMakeFiles/chess-populate"
+		},
+		{
+			"file" : "/home/vergabox/cpp_refresh/_deps/chess-subbuild/CMakeFiles/chess-populate.rule"
+		},
+		{
+			"file" : "/home/vergabox/cpp_refresh/_deps/chess-subbuild/CMakeFiles/chess-populate-complete.rule"
+		},
+		{
+			"file" : "/home/vergabox/cpp_refresh/_deps/chess-subbuild/chess-populate-prefix/src/chess-populate-stamp/chess-populate-build.rule"
+		},
+		{
+			"file" : "/home/vergabox/cpp_refresh/_deps/chess-subbuild/chess-populate-prefix/src/chess-populate-stamp/chess-populate-configure.rule"
+		},
+		{
+			"file" : "/home/vergabox/cpp_refresh/_deps/chess-subbuild/chess-populate-prefix/src/chess-populate-stamp/chess-populate-download.rule"
+		},
+		{
+			"file" : "/home/vergabox/cpp_refresh/_deps/chess-subbuild/chess-populate-prefix/src/chess-populate-stamp/chess-populate-install.rule"
+		},
+		{
+			"file" : "/home/vergabox/cpp_refresh/_deps/chess-subbuild/chess-populate-prefix/src/chess-populate-stamp/chess-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/vergabox/cpp_refresh/_deps/chess-subbuild/chess-populate-prefix/src/chess-populate-stamp/chess-populate-patch.rule"
+		},
+		{
+			"file" : "/home/vergabox/cpp_refresh/_deps/chess-subbuild/chess-populate-prefix/src/chess-populate-stamp/chess-populate-test.rule"
+		},
+		{
+			"file" : "/home/vergabox/cpp_refresh/_deps/chess-subbuild/chess-populate-prefix/src/chess-populate-stamp/chess-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"chess-populate"
+		],
+		"name" : "chess-populate"
+	}
+}
